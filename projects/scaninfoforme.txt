@@ -1,0 +1,4 @@
+Try lowering highlights to color-correct. If that doesn't work do the overall brightness.
+
+-20 on the highlights seems to work well. Do 105 saturation and it'll be more vibrant like irl.
+Remember 1500px at most, except for large scans (usually composites).

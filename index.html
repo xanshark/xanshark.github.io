@@ -4,6 +4,11 @@
         <title>xanshark - home</title>
         <link rel="stylesheet" href="main.css"/>
         <script src="https://iframe.chat/scripts/main.min.js"></script>
+        <script>
+            chattable.initialize({
+            stylesheet : "chattable.css",
+        });
+</script>
     </head>
 
     <body>
@@ -68,12 +73,16 @@
             
             <div id="sidecontent">
                 <h3>Site Updates</h3>
-                <iframe src="updates.html" title="Site Updates" width="200px" height="200px" frameBorder="0" alt="Site Updates"></iframe>
+                <div id="button">
+                    <iframe src="updates.html" title="Site Updates" width="200px" height="200px" frameBorder="0" alt="Site Updates"></iframe>
+                </div>
             </div>
             <p></p>
             <div id="sidecontent">
                 <h3>What Am I Listening To?</h3>
-                <iframe src="lastfm.html" title="last.fm Widget" width="200px" height="300px" frameBorder="0" alt="last.fm Widget"></iframe>
+                <div id="button">
+                    <iframe src="lastfm.html" title="last.fm Widget" width="200px" height="300px" frameBorder="0" alt="last.fm Widget"></iframe>
+                </div>
                 <p></p>
             </div>
         </div>
@@ -81,7 +90,9 @@
         <div id="rightside">
             <div id="sidecontent">
                 <h3>Chat</h3>
-                <iframe src='https://iframe.chat/embed?chat=xanshark' id='chattable' frameborder='0' width="200px" height="960px"></iframe>
+                <div id="button">
+                    <iframe src='https://iframe.chat/embed?chat=xanshark' id='chattable' frameborder='0' width="220px" height="960px"></iframe>
+                </div>
             </div>
         </div>
     </body>

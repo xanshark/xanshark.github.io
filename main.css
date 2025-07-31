@@ -20,15 +20,16 @@ html {
 
 body{
     position: relative;
-    margin: 1em auto;
-    width: 1050px;
+    margin: auto;
+    width: fit-content;
+    align-content: center;
     display: grid;
     grid-template-columns: 200px 700px 200px;
     grid-template-rows: 154px auto;
     p, h4 {
         font-family: "Segoe UI Semilight";
         font-weight: normal;
-        color: #ffff;
+        color: hsl(0, 0%, 100%);
         text-shadow: 2px 2px 3px #000000;
     }
     h1, h2, h3 {
@@ -58,6 +59,7 @@ body{
 }
 
 #logo {
+    margin-top: 15px;
     img {
         height: auto;
         width: 700px;
@@ -104,6 +106,7 @@ body{
 }
 
 #leftside {
+    margin-top: 15px;
     display:grid;
     margin-right: 30px;
     margin-left: -50px;
@@ -145,4 +148,20 @@ body{
     a:link {
         text-decoration: none;
     }
+}
+
+#rightside {
+    margin-top: 15px;
+    display:grid;
+    margin-right: 30px;
+    margin-left: 30px;
+    h3 {
+        padding-left: 5px;
+    }
+    h4 {
+        text-align: center;
+        line-height: 15px;
+    }
+    grid-column-start: 3;
+    grid-column-end: 3;
 }

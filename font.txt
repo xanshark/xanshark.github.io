@@ -1,2 +1,0 @@
-Tahoma, no bold, 32px
-Project image is 600x300

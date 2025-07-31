@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Segoe UI Semilight";
+    src: url("res/segoe_ui_semilight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tahoma Regular";
+    src: url("res/tahoma_regular.ttf") format("truetype");
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffff;
+}
+
+body{
+    p, h4 {
+        font-family: "Segoe UI Semilight";
+        font-weight: normal;
+        color: #ffff;
+        text-shadow: 2px 2px 3px #000000;
+    }
+    h1, h2, h3, h6 {
+        font-family: "Tahoma Regular";
+        font-weight: normal;
+        color: #ffffff;
+        text-shadow: 2px 2px 3px #000000;
+    }
+    line-height: 0px;
+}
+
+#lastfm {
+    zoom:80%;
+    width: 223px;
+}

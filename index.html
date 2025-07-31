@@ -1,35 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<style>
-		.content {
-			max-width: 500px;
-			margin: auto;
-		}
-		h1 {text-align: center;}
-		p {text-align: center;}
-		div {text-align: center;}
-	</style>
-	<head>
-		<title>index @ xanshark.github.io</title>
-		<link rel="stylesheet" href="main.css"/>
-	</head>
-	<body>				
-		<div class="content">
-			<h1>xanshark.github.io</h1>
-			<hr>
-			<p>Index | <a href="https://xanshark.github.io/projects.html">Projects</a> | <a href="https://xanshark.github.io/socials.html">Socials</a></p>
-			<hr>
-			<h1>Welcome To My Site!</h1>
-			<p>This site is in an <i>extremely</i> unfinished state. Much more to come in the future, hopefully.</p>
-			<br>
-			<h2><a href="https://www.last.fm/user/ethmac007">What am I listening to?</a></h2>
-			<p>(Reload to update)</p>
-			<iframe src="https://lastfm-recently-played.vercel.app/api?user=ethmac007" width="400" height="330" scrolling="no" frameBorder="0"></iframe>
-			<br>
-			<br>
-			<hr>
-			<p>Last Updated: 3/11/2025 2:07 PM CST</p>
-			<p><script>document.write(/\d{4}/.exec(Date())[0])</script> xanshark</p>
+    <head>
+        <title>xanshark - home</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+
+    <body>
+        <div id="page">
+            <div id="logo">
+                <a href="index.html" title="Home"><img src="img/logo.png" alt="xanshark Logo"></a>
+            </div>
+            
+            <div id="content">
+                <h1>Welcome to my site!</h1>
+			    <p></p>
+			    <p>This is a pretty big step up from the previous design of this site, but it's still under construction and might be wonky.</p>
+			    <p>After all,</p>
+                <div id="button">
+                    <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/aZ0RGyuZEH4?&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <br>
+            </div>
+
+            <div id="content">
+                <p>This site was made mainly just for the fun of it, but also to share my interests. Plus, I can also say that I have a site :)</p>
+            </div>
+
+            <div id="content">
+                <div id="button">
+                    <br>
+                    <iframe width="640" height="480" src="https://archive.org/download/meat-puppets-backwater/MEAT%20PUPPETS%20-%20Backwater.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Meat Puppets - Backwater</h3>
+                </div>
+            </div>
+
+            <div id="content">
+                <h5>This site is best viewed with the latest version of Firefox or Chrome on an at least 720p widescreen display.</h5>
+            </div>
+
+            <div id="copyright">
+                <h4>Copyleft 🄯 <script>document.write(/\d{4}/.exec(Date())[0])</script> xanshark, licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0<br><br></a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"></h4>
+            </div>
+
+            <div id="button">
+                <br>
+                <a href="https://vscodium.com/" title="VSCodium Homepage"><img src="img/vscodium.gif" alt="VSCodium Button"></a>
+                <br>
+                <iframe src="lastupdate.html" title="Last Update" width="202" height="50" frameBorder="0"></iframe>
+            </div>
+            
 		</div>
-	</body>
+        
+        <div id="leftside">
+                <div id="sidecontent">
+                    <h3>Navigation</h3>
+                    <h4><a href="index.html">Home</a></h4>
+                    <h4><a href="posts.html">Posts</a></h4>
+                    <h4><a href="projects.html">Projects</a></h4>
+                    <h4><a href="coolstuff.html">Cool Stuff</a></h4>
+                    <h4><a href="fanlistings.html">Fanlistings</a></h4>
+                    <h4><a href="aboutme.html">About Me</a></h4>
+                    <h4><a href="credits.html">Website Credit</a></h4>
+                    <h4><a href="contact.html">Contact</a></h4>
+                </div>
+                <p></p>
+                <div id="sidecontent">
+                    <h3>Site Updates</h3>
+                    <iframe src="updates.html" title="Site Updates" width="200px" height="200px" frameBorder="0" alt="Site Updates"></iframe>
+                </div>
+                <p></p>
+                <div id="sidecontent">
+                    <h3>What Am I Listening To?</h3>
+                    <iframe src="lastfm.html" title="last.fm Widget" width="200px" height="300px" frameBorder="0" alt="last.fm Widget"></iframe>
+                    <p></p>
+                </div>
+            </div>
+    </body>
 </html>

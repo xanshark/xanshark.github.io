@@ -166,3 +166,23 @@ body{
     grid-column-start: 3;
     grid-column-end: 3;
 }
+
+#bottomimage {
+    position: relative;
+    bottom: 150px;
+    left: 280px;
+    text-align: right;
+    p {
+        font-size: 13px;
+        text-align: right;
+        margin-top: -13px;
+    }
+    a:link {
+        text-decoration: underline;
+    }
+}
+
+#buttonup {
+    position: relative;
+    bottom: 300px;
+}

@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Segoe UI Semilight";
-    src: url("res/segoe_ui_semilight.ttf") format("truetype");
+    src: url("/res/segoe_ui_semilight.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Tahoma Regular";
-    src: url("res/tahoma_regular.ttf") format("truetype");
+    src: url("/res/tahoma_regular.ttf") format("truetype");
 }
 
 a:link {
